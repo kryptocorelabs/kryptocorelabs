@@ -1,12 +1,29 @@
 # KryptoCoreLabs
 
-We build local encryption tools around a small, reusable cryptographic library.
+We build local encryption tools so people can keep control of their data
+and keys. A small, reusable library is the foundation for the apps we
+want to build.
 
-| Project | What you can do |
+## A free core
+
+[KryptoCore](https://github.com/kryptocorelabs/kryptocore) is a Rust library
+for authenticated encryption and password-based key derivation. The core
+is free to use, inspect, improve, and build on under the MIT license.
+We welcome independent applications built on it.
+
+## Apps built on the core
+
+| Project | Status |
 | --- | --- |
-| [KryptoCore](https://github.com/kryptocorelabs/kryptocore) | Build on a free, MIT-licensed Rust library for authenticated encryption and password-based key derivation. |
-| [Vault](https://github.com/kryptocorelabs/vault) | Try the Windows preview of a local password manager with synthetic test data. |
+| [Vault](https://github.com/kryptocorelabs/vault) | Windows password manager preview for synthetic test data. |
+| Browser integration | In development for Firefox, with Vault as the local store. |
+| Encrypted messaging and portable containers | Planned projects. |
 
-KryptoCore is a community project. Help by reviewing code, testing
-interoperability, or improving the documentation.
+We want donations and optional paid app features to help fund ongoing
+maintenance. The core stays free under MIT.
+
+## Build with us
+
+Code review, interoperability tests, documentation, and reports from people
+building on the core are welcome.
 [Read the contribution guide](https://github.com/kryptocorelabs/kryptocore/blob/main/CONTRIBUTING.md).
