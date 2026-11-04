@@ -15,8 +15,8 @@ We welcome independent applications built on it.
 
 | Project | Status |
 | --- | --- |
-| [Vault](https://github.com/kryptocorelabs/vault) | Windows password manager preview for synthetic test data. |
-| Browser integration | In development for Firefox, with Vault as the local store. |
+| [Vault](https://github.com/kryptocorelabs/vault) | Windows password manager. [Public previews](https://github.com/kryptocorelabs/vault/releases) are available for evaluation with synthetic data. |
+| [Firefox integration](https://github.com/kryptocorelabs/vault/blob/main/FIREFOX.md) | Release candidate tested with Vault for Windows. Persistent installation depends on a Mozilla-signed build. |
 | Encrypted messaging and portable containers | Planned projects. |
 
 We want donations and optional paid app features to help fund ongoing
