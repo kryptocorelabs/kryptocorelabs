@@ -17,7 +17,8 @@ We welcome independent applications built on it.
 | --- | --- |
 | [Vault](https://github.com/kryptocorelabs/vault) | Windows password manager. [Public previews](https://github.com/kryptocorelabs/vault/releases) are available for evaluation with synthetic data. |
 | [Firefox integration](https://github.com/kryptocorelabs/vault/blob/main/FIREFOX.md) | Release candidate tested with Vault for Windows. Persistent installation depends on a Mozilla-signed build. |
-| Encrypted messaging and portable containers | Planned projects. |
+| [MSG](https://github.com/kryptocorelabs/msg) | Windows alpha for encrypted conversations and file transfers over Tor. |
+| [Container](https://github.com/kryptocorelabs/container) | Windows alpha for portable encrypted archives and self-opening exports. |
 
 We want donations and optional paid app features to help fund ongoing
 maintenance. The core stays free under MIT.
