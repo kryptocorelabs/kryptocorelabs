@@ -1,38 +1,47 @@
 # KryptoCoreLabs
 
-We build local encryption tools so people can keep control of their data
-and keys. A small, reusable library is the foundation for the apps we
-want to build.
+**One open foundation. A growing ecosystem. Security built together.**
 
-## A free core
+We build privacy-focused software that helps people retain control of their data
+and keys. The whole ecosystem is open source: the Core, shared modules, Vault,
+Firefox extension, Container, Messenger and Rescue. First-party code is MIT
+licensed; third-party components retain their own terms.
 
-[KryptoCore](https://github.com/kryptocorelabs/kryptocore) is a Rust library
-for authenticated encryption and password-based key derivation. The core
-is free to use, inspect, improve, and build on under the MIT license.
-We welcome independent applications built on it.
+## Why KryptoCore?
 
-## Apps built on the core
+Established cryptography is the starting point. We focus on a small reusable
+Core, clear interfaces, documented formats and tests contributors can reproduce.
+Applications own their additional trust boundaries and responsibilities.
+Open source enables scrutiny; it does not guarantee security.
 
-| Project | Status |
-| --- | --- |
-| [Vault](https://github.com/kryptocorelabs/vault) | Windows password manager. [Public previews](https://github.com/kryptocorelabs/vault/releases) are available for evaluation with synthetic data. |
-| [Firefox integration](https://github.com/kryptocorelabs/vault/blob/main/FIREFOX.md) | Release candidate tested with Vault for Windows. Persistent installation depends on a Mozilla-signed build. |
-| [MSG](https://github.com/kryptocorelabs/msg) | Windows alpha for encrypted conversations and file transfers over Tor. |
-| [Rescue](https://github.com/kryptocorelabs/rescue) | Offline preview: authenticate/export Vault records and extract Container archives to fresh destinations. MSG recovery is not implemented. |
-| [Container](https://github.com/kryptocorelabs/container) | Windows alpha for portable encrypted archives and self-opening exports. |
+Read our [project charter](https://github.com/kryptocorelabs/kryptocore/blob/main/PROJECT_CHARTER.md) for the technical direction, community
+principles, funding policy and limits on security claims.
 
-We want donations and optional paid app features to help fund ongoing
-maintenance. The core stays free under MIT.
+## Projects
 
-The optional [signature companion](https://github.com/kryptocorelabs/kryptocore/tree/main/modules/signatures)
-adds purpose-bound Ed25519 signatures alongside the minimal encryption Core.
-It has its own keys, tests and documented trust boundaries. Container and Rescue
-use it for optional sender checks; existing Vault and Messenger protocols remain
-unchanged. All current applications remain previews. Windows executables are
-unsigned and independent security review is still pending.
+| Project | Implementation | Status and downloads |
+| --- | --- | --- |
+| Core and optional signatures | [kryptocore](https://github.com/kryptocorelabs/kryptocore) | Rust library and Python interoperability reference; preview |
+| Vault and Firefox | [vault-source](https://github.com/kryptocorelabs/vault-source) | [Vault previews](https://github.com/kryptocorelabs/vault); Firefox 0.1.16 is Mozilla-signed |
+| Messenger | [apps-source/apps/msg](https://github.com/kryptocorelabs/apps-source/tree/main/apps/msg) | [Experimental Tor chat and files](https://github.com/kryptocorelabs/msg) |
+| Container | [apps-source/apps/container](https://github.com/kryptocorelabs/apps-source/tree/main/apps/container) | [Encrypted file archives](https://github.com/kryptocorelabs/container); preview |
+| Rescue | [apps-source/apps/rescue](https://github.com/kryptocorelabs/apps-source/tree/main/apps/rescue) | [Offline recovery exports](https://github.com/kryptocorelabs/rescue); MSG recovery not implemented |
+
+The application workspaces contain shared modules so they can be cloned, built
+and tested independently. The separate app repositories remain their download
+and user-documentation entry points.
 
 ## Build with us
 
-Code review, interoperability tests, documentation, and reports from people
-building on the core are welcome.
-[Read the contribution guide](https://github.com/kryptocorelabs/kryptocore/blob/main/CONTRIBUTING.md).
+Developers, reviewers, security researchers and documentation contributors are
+welcome. Start with a source repository's README and contribution guide, or
+join [Discussions](https://github.com/kryptocorelabs/kryptocore/discussions).
+Report vulnerabilities through the private security-reporting channel.
+
+Donations are the primary intended funding source. Optional support, maintenance
+agreements or hosted services may help fund ongoing work. Local applications,
+their source and access to one's own data stay freely available.
+
+All applications remain previews. Independent security audit is pending;
+Windows executables are unsigned. Mozilla signing of the Firefox package is
+separate from an audit of Vault or the broader ecosystem.
