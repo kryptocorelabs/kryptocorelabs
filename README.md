@@ -32,6 +32,7 @@ privately through the project's security-reporting channel.
 | Messenger | [apps-source/apps/msg](https://github.com/kryptocorelabs/apps-source/tree/main/apps/msg) | [Experimental Tor chat and files](https://github.com/kryptocorelabs/msg) |
 | Container | [apps-source/apps/container](https://github.com/kryptocorelabs/apps-source/tree/main/apps/container) | [Encrypted file archives](https://github.com/kryptocorelabs/container); preview |
 | Rescue | [apps-source/apps/rescue](https://github.com/kryptocorelabs/apps-source/tree/main/apps/rescue) | [Offline recovery exports](https://github.com/kryptocorelabs/rescue); MSG recovery not implemented |
+| Verify | [apps-source/apps/verify](https://github.com/kryptocorelabs/apps-source/tree/main/apps/verify) | Offline signed-release checks; preview, official release-key provisioning pending |
 
 The application workspaces contain shared modules so they can be cloned, built
 and tested independently. The separate app repositories remain their download
