@@ -26,8 +26,9 @@ maintenance. The core stays free under MIT.
 
 The optional [signature companion](https://github.com/kryptocorelabs/kryptocore/tree/main/modules/signatures)
 adds purpose-bound Ed25519 signatures alongside the minimal encryption Core.
-It has its own keys, tests and documented trust boundaries; app integration is
-pending. All current applications remain previews. Windows executables are
+It has its own keys, tests and documented trust boundaries. Container and Rescue
+use it for optional sender checks; existing Vault and Messenger protocols remain
+unchanged. All current applications remain previews. Windows executables are
 unsigned and independent security review is still pending.
 
 ## Build with us
