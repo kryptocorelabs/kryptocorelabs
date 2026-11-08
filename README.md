@@ -17,6 +17,12 @@ Open source enables scrutiny; it does not guarantee security.
 Read our [project charter](https://github.com/kryptocorelabs/kryptocore/blob/main/PROJECT_CHARTER.md) for the technical direction, community
 principles, funding policy and limits on security claims.
 
+Testing to date has been carried out by the KryptoCoreLabs maintainers, locally
+and through automated CI. No independent security audit has been completed.
+We welcome community testing, code reviews and scrutiny of our security
+assumptions. Please use synthetic data and report suspected vulnerabilities
+privately through the project's security-reporting channel.
+
 ## Projects
 
 | Project | Implementation | Status and downloads |
