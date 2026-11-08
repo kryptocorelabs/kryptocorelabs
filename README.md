@@ -23,6 +23,8 @@ We welcome community testing, code reviews and scrutiny of our security
 assumptions. Please use synthetic data and report suspected vulnerabilities
 privately through the project's security-reporting channel.
 
+[Security in 30 seconds](https://github.com/kryptocorelabs/kryptocore/blob/main/SECURITY-IN-BRIEF.md) · [Recovery guide](https://github.com/kryptocorelabs/kryptocore/blob/main/RESCUE-FIRST.md) · [Verify downloads](https://github.com/kryptocorelabs/kryptocore/blob/main/VERIFY-DOWNLOADS.md)
+
 ## Projects
 
 | Project | Implementation | Status and downloads |
