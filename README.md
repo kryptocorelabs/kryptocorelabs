@@ -1,44 +1,37 @@
 # KryptoCoreLabs
 
-**One open foundation. A growing ecosystem. Security built together.**
+## KryptoCore Vault
 
-We build privacy-focused software that helps people retain control of their data
-and keys. The whole ecosystem is open source: the Core, shared modules, Vault,
-Firefox extension, Container, Messenger and Rescue. First-party code is MIT
-licensed; third-party components retain their own terms.
+**An open-source password manager for people who want to keep their logins on their own device.**
 
-## Why KryptoCore?
+Vault saves your logins in an encrypted file you can open offline. No account
+or cloud service is required.
 
-Established cryptography is the starting point. We focus on a small reusable
-Core, clear interfaces, documented formats and tests contributors can reproduce.
-Applications own their additional trust boundaries and responsibilities.
-Open source enables scrutiny; it does not guarantee security.
+**Windows preview.** Try it with sample data.
 
-Read our [project charter](https://github.com/kryptocorelabs/kryptocore/blob/main/PROJECT_CHARTER.md) for the technical direction, community
-principles, funding policy and limits on security claims.
+[Try the Windows preview](https://github.com/kryptocorelabs/vault#try-the-desktop-preview) · [Browse the source](https://github.com/kryptocorelabs/vault-source) · [Give feedback](https://github.com/kryptocorelabs/vault/issues)
 
-Testing to date has been carried out by the KryptoCoreLabs maintainers, locally
-and through automated CI. No independent security audit has been completed.
-We welcome community testing, code reviews and scrutiny of our security
-assumptions. Please use synthetic data and report suspected vulnerabilities
-privately through the project's security-reporting channel.
-
-[Security in 30 seconds](https://github.com/kryptocorelabs/kryptocore/blob/main/SECURITY-IN-BRIEF.md) · [Recovery guide](https://github.com/kryptocorelabs/kryptocore/blob/main/RESCUE-FIRST.md) · [Verify downloads](https://github.com/kryptocorelabs/kryptocore/blob/main/VERIFY-DOWNLOADS.md)
+[See Vault with sample logins](demo/README.md#vault).
 
 ## Projects
 
+Vault is built on KryptoCore, a reusable encryption library. The other projects
+are available separately for people who want to explore or contribute.
+
 | Project | Implementation | Status and downloads |
 | --- | --- | --- |
-| Core and optional signatures | [kryptocore](https://github.com/kryptocorelabs/kryptocore) | Rust library and Python interoperability reference; preview |
-| Vault and Firefox | [vault-source](https://github.com/kryptocorelabs/vault-source) | [Vault previews](https://github.com/kryptocorelabs/vault); Firefox 0.1.16 is Mozilla-signed |
-| Messenger | [apps-source/apps/msg](https://github.com/kryptocorelabs/apps-source/tree/main/apps/msg) | [Experimental Tor chat and files](https://github.com/kryptocorelabs/msg) |
-| Container | [apps-source/apps/container](https://github.com/kryptocorelabs/apps-source/tree/main/apps/container) | [Encrypted file archives](https://github.com/kryptocorelabs/container); preview |
-| Rescue | [apps-source/apps/rescue](https://github.com/kryptocorelabs/apps-source/tree/main/apps/rescue) | [Offline recovery exports](https://github.com/kryptocorelabs/rescue); MSG recovery not implemented |
-| Verify | [apps-source/apps/verify](https://github.com/kryptocorelabs/apps-source/tree/main/apps/verify) | Offline signed-release checks; preview, official release-key provisioning pending |
+| Firefox companion | [vault-source](https://github.com/kryptocorelabs/vault-source) | [Mozilla-signed add-on for compatible Windows Vault builds](https://github.com/kryptocorelabs/vault/blob/main/FIREFOX.md) |
+| Container | [apps-source/apps/container](https://github.com/kryptocorelabs/apps-source/tree/main/apps/container) | [Preview for encrypted file archives](https://github.com/kryptocorelabs/container) |
+| Rescue | [apps-source/apps/rescue](https://github.com/kryptocorelabs/apps-source/tree/main/apps/rescue) | [Preview for offline Vault and Container recovery exports](https://github.com/kryptocorelabs/rescue) |
+| Messenger | [apps-source/apps/msg](https://github.com/kryptocorelabs/apps-source/tree/main/apps/msg) | [Experimental Tor chat and file transfers](https://github.com/kryptocorelabs/msg) |
+| Core and optional signatures | [kryptocore](https://github.com/kryptocorelabs/kryptocore) | Rust encryption library and Python interoperability reference, both in preview |
+| Verify | [apps-source/apps/verify](https://github.com/kryptocorelabs/apps-source/tree/main/apps/verify) | Preview for offline checks of signed releases. Official release-key provisioning is pending. |
 
-The application workspaces contain shared modules so they can be cloned, built
-and tested independently. The separate app repositories remain their download
-and user-documentation entry points.
+## Why KryptoCore?
+
+We build local tools so people can control their data and keys. First-party code
+is open source under MIT. We use established cryptography, keep the reusable
+Core small and document what each app protects. See the [project charter](https://github.com/kryptocorelabs/kryptocore/blob/main/PROJECT_CHARTER.md).
 
 ## Build with us
 
@@ -55,6 +48,7 @@ Donations are the primary intended funding source. Optional support, maintenance
 agreements or hosted services may help fund ongoing work. Local applications,
 their source and access to one's own data stay freely available.
 
-All applications remain previews. Independent security audit is pending;
-Windows executables are unsigned. Mozilla signing of the Firefox package is
-separate from an audit of Vault or the broader ecosystem.
+All apps are previews. Testing to date comes from maintainers and automated CI.
+An independent security audit is pending. Windows executables are unsigned.
+
+[Security in 30 seconds](https://github.com/kryptocorelabs/kryptocore/blob/main/SECURITY-IN-BRIEF.md) · [Recovery guide](https://github.com/kryptocorelabs/kryptocore/blob/main/RESCUE-FIRST.md) · [Verify downloads](https://github.com/kryptocorelabs/kryptocore/blob/main/VERIFY-DOWNLOADS.md)
