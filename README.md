@@ -25,7 +25,7 @@ are available separately for people who want to explore or contribute.
 | Rescue | [apps-source/apps/rescue](https://github.com/kryptocorelabs/apps-source/tree/main/apps/rescue) | [Preview for offline Vault and Container recovery exports](https://github.com/kryptocorelabs/rescue) |
 | Messenger | [apps-source/apps/msg](https://github.com/kryptocorelabs/apps-source/tree/main/apps/msg) | [Experimental Tor chat and file transfers](https://github.com/kryptocorelabs/msg) |
 | Core and optional signatures | [kryptocore](https://github.com/kryptocorelabs/kryptocore) | Rust encryption library and Python interoperability reference, both in preview |
-| Verify | [apps-source/apps/verify](https://github.com/kryptocorelabs/apps-source/tree/main/apps/verify) | Preview for offline checks of signed releases. Official release-key provisioning is pending. |
+| Verify | [apps-source/apps/verify](https://github.com/kryptocorelabs/apps-source/tree/main/apps/verify) | Preview for offline checks of signed releases using the [published verification key](https://github.com/kryptocorelabs/kryptocore/blob/main/PUBLIC_RELEASE_KEY.txt). |
 
 ## Why KryptoCore?
 
