@@ -42,6 +42,10 @@ and user-documentation entry points.
 
 ## Build with us
 
+Start with the [demo walkthrough and screenshots](demo/README.md).
+Try the apps with public synthetic data, including a filled vault, encrypted
+files, a loopback chat and a signed sample for Verify.
+
 Developers, reviewers, security researchers and documentation contributors are
 welcome. Start with a source repository's README and contribution guide, or
 join [Discussions](https://github.com/kryptocorelabs/kryptocore/discussions).

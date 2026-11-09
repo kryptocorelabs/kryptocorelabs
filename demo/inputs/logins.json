@@ -1,0 +1,21 @@
+{
+  "format": "kryptocore-vault-export",
+  "schema_version": 1,
+  "entries": [
+    {
+      "origin": "https://localhost:8443",
+      "username": "alex.demo",
+      "password": "synthetic-browser-login-only"
+    },
+    {
+      "origin": "https://library.example",
+      "username": "sam.reader",
+      "password": "synthetic-library-login-only"
+    },
+    {
+      "origin": "https://workshop.example",
+      "username": "jo.builder",
+      "password": "synthetic-workshop-login-only"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+*.kcv binary
+*.kcc binary
+*.sig binary
+fixtures/verify/release.json -text
+inputs/files/* -text

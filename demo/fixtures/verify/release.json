@@ -1,0 +1,1 @@
+{"schema":"kryptocore-release/v1","product":"northstar-demo","version":"1.0-demo","sequence":1,"issued_at":1794202378,"expires_at":1825741978,"source_commit":"0000000000000000000000000000000000000000","artifacts":[{"file":"transfer-note.txt","target":"demo","length":99,"sha256":"7dcff66296376e9596249fb163a7ed7972502d6366205e4220183eeceac4d774"}]}

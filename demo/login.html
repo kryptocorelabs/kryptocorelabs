@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KryptoCore synthetic sign-in</title>
+  <style>
+    body { margin: 8vh auto; max-width: 30rem; padding: 0 1rem; font: 1rem system-ui; color: #e7eef5; background: #111d27; }
+    label { display: block; margin-top: 1rem; }
+    input, button { box-sizing: border-box; width: 100%; padding: .65rem; margin-top: .3rem; font: inherit; border-radius: .4rem; }
+    button { margin-top: 1rem; background: #8be1d2; color: #112027; }
+  </style>
+</head>
+<body>
+  <h1>Northstar Workshop</h1>
+  <p>Local test form. Use the public demo login.</p>
+  <form method="post">
+    <label>Username <input name="username" autocomplete="username" required></label>
+    <label>Password <input name="password" type="password" autocomplete="current-password" required></label>
+    <button type="submit">Sign in to the demo</button>
+  </form>
+  <p role="status"></p>
+  <script>
+    document.querySelector("form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      event.currentTarget.reset();
+      document.querySelector('[role="status"]').textContent = "Demo complete. The form stayed on this page.";
+    });
+  </script>
+</body>
+</html>

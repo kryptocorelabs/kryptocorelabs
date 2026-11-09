@@ -1,0 +1,2 @@
+Example handover for the Northstar workshop.
+This file and the packing list contain invented data.
